@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="sb-nav-fixed">
          <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <Link to="" className="navbar-brand ps-3" >Start Bootstrap</Link>
+            <Link className="navbar-brand ps-3" to="/admin">Laundry Shop Management System</Link>
             <button className="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i className="fas fa-bars"></i></button>
        
             <form className="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
@@ -15,15 +15,17 @@ const Navbar = () => {
                     <button className="btn btn-primary" id="btnNavbarSearch" type="button"><i className="fas fa-search"></i></button>
                 </div>
             </form>
-    
+            <Link className="navbar-brand ps-3" to="#">Notification</Link>
             <ul className="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
                 <li className="nav-item dropdown">
-                    <Link to="#" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i className="fas fa-user fa-fw"></i></Li>
+                    <Link  className="nav-link dropdown-toggle" to="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i className="fas fa-user fa-fw"></i>
+                    </Link>
                     <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><Link to="#!" className="dropdown-item" >Settings</Link></li>
-                        <li><Link to="#!"className="dropdown-item" >Activity Log</Link></li>
+                        <li><Link className="dropdown-item" to="#!">Settings</Link></li>
+                        <li><Link className="dropdown-item" to="#!">Activity Log</Link></li>
                         <li><hr className="dropdown-divider" /></li>
-                        <li><Link to="#!" className="dropdown-item" >Logout</Link></li>
+                        <li><Link className="dropdown-item" to="#!">Logout</Link></li>
                     </ul>
                 </li>
             </ul>
