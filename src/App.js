@@ -1,9 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import MainLayout from './layout/admin/MainLayout';
 import Home from './components/frontend/Home';
 import Register from './components/frontend/auth/Register';
 import Login from './components/frontend/auth/Login';
+import MainLayout from './layout/admin/MainLayout';
+
 
 
 function App() {
