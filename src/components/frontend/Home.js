@@ -10,7 +10,7 @@ function Home() {
       <Slider/>
       <div>
 
-          <div className="container">
+          <div className="container bg-secondary">
               <div className ="card mt-5">
                 <div className="card-body">
             
