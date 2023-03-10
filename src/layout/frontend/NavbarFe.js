@@ -1,10 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import logo1 from '../../assets/frontend/images/logo1.png';
+import '../../assets/frontend/style.css'
 
 function NavbarFe() {
     return (
        
         <nav className="navbar navbar-expand-lg bg-light">
+            <div className="logoContainer">
+                <img src={logo1} alt="logo" className="logo-name1" />
+            </div>
             <div className="container-fluid">
                 <Link to="/" class="navbar-brand">Laundry Shop Management System</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
