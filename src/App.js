@@ -6,6 +6,7 @@ import Login from './components/frontend/auth/Login';
 import MainLayout from './layout/admin/MainLayout';
 
 
+
 function App() {
   return (
 
@@ -22,12 +23,13 @@ function App() {
         </Switch>
 
       </Router>
+    
       
     </div>
-     
-      
-    
   );
+
 }
+    
+
 
 export default App;
