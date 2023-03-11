@@ -14,6 +14,12 @@ function FooterFe(){
                         <p>
                             Lorem udssj sfsfsj sfsfsjf snlsnfs.
                         </p>
+                        <p>
+                            Lorem udssj sfsfsj sfsfsjf snlsnfs.
+                        </p>
+                        <p>
+                            Lorem udssj sfsfsj sfsfsjf snlsnfs.
+                        </p>
                     </div>
                     <div className="col-md text-center">
                         <h6>QUICK LINKS</h6>
@@ -28,6 +34,7 @@ function FooterFe(){
                         <h6>OPERATING HOURS</h6>
                         <div className="underline mx-auto"></div>
                         <div className="text-white mb-1">Monday to Sunday</div>
+                        <div className="text-white mb-1">8AM to 12 midnight </div>
                         <div className="text-white mb-1">8AM to 12 midnight </div>
                     </div>
                     <div className="col-md text-center">
