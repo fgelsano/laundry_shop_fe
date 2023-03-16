@@ -6,31 +6,31 @@ import routes from '../../routes/routes'
 import Sidebar from './Sidebar';
 import '../../assets/admin/css/styles.css'
 import '../../assets/admin/js/scripts'
-// import 'bootstrap/dist/js/bootstrap.bundle.js'
+import 'bootstrap/dist/js/bootstrap.bundle.js'
 
 
 
 
 const MainLayout = () => {
 
- 
+
 
   return (
     <div className='sb-nav-fixed'>
-        <Navbar/>
-       
+      <Navbar />
+
       <div id='layoutSidenav'>
-         <div id='layoutSidenav_nav'>
-          <Sidebar/>
+        <div id='layoutSidenav_nav'>
+          <Sidebar />
         </div>
         <div id='layoutSidenav_content'>
           <main>
-            
+
             <Switch>
-              {routes.map((route, idx) =>{
-                return(
+              {routes.map((route, idx) => {
+                return (
                   route.component && (
-                    <Route 
+                    <Route
                       key={idx}
                       path={route.path}
                       exact={route.exact}
@@ -41,14 +41,13 @@ const MainLayout = () => {
                     />
                   )
                 )
-
               })}
               <Redirect from="/admin" to="/admin/dashboard" />
             </Switch>
-          
+
           </main>
-          
-          <Footer/> 
+
+          <Footer />
         </div>
       </div>
     </div>

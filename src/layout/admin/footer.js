@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -8,9 +9,9 @@ function Footer() {
                         <div class="d-flex align-items-center justify-content-between small">
                             <div class="text-muted">Copyright &copy; Your Website 2022</div>
                             <div>
-                                <a href="#">Privacy Policy</a>
+                                <Link to="#">Privacy Policy</Link>
                                 &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <Link to="#">Terms &amp; Conditions</Link>
                             </div>
                         </div>
                     </div>

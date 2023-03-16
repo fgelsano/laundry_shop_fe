@@ -10,6 +10,7 @@ import FooterFe from './../../layout/frontend/FooterFe';
 
 
 
+
 function Home() {
   return (
     <div>
@@ -121,7 +122,7 @@ function Home() {
           </section>
 
             </div>
-            <FooterFe/>
+            <FooterFe />
       </div>
   )
 }
